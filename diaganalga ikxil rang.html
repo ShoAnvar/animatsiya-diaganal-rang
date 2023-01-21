@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> animation</title>
+<style>
+
+section{
+	position: relative;
+	min-height: 100vh;
+	background: linear-gradient(-30deg, #03a9f4 0%, #3a78b7 50%, #262626 50%, #604d8b 100%); 
+	filter: hue-rotate(12deg);
+	animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+	0%
+	{
+		filter: hue-rotate(0deg);
+	}
+	100%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+
+@keyframes div {
+0%   {background-color: #1affff; left: 300px; top:0px;}
+25%  {background-color: #53ff1a; left: 0px; top:200px;}
+50%  {background-color: #ff1a1a; right:300px;top:200px;}
+75%{ background-color: #ff33bb;  left:300px; top: 200px; } 
+100% {background-color: #ffff33; left: 0px; top: 0px;}
+
+}
+
+</style>
+</head>
+<body>
+
+<section></section>
+<div></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
